@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    font-family: cursive;
+}
+
+#titulo-h1{
+    background-color: #9d1cd4;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 174, 255, 1);
+}
+
+.contenedor-numeros, .contenedor-boton-resultados{
+    width: 90%;
+    max-width: 500px;
+}
+
+h2{
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    border: 2px solid #ccc;
+    font-family: cursive;
+    margin-bottom: 15px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgb(150, 0, 200);
+}
+
+input:focus{
+    outline: none;
+    border-color: #8e44ad;
+    box-shadow: 0px 0px 8px rgba(142, 68, 173, 0.4);
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #199400;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgb(0, 148, 20);
+}
+
+button:hover{
+    background-color: #33ff00;
+    box-shadow: 0px 4px 10px rgb(0, 255, 34);
+}
+
+#resultado{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.resultado{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
